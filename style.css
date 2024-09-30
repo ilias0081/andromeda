@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-left {
+    display: flex;
+    flex-basis: 25%;
+    align-items: center; /* Align the logo and website name */
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.website-name {
+    font-family: 'Franklin Gothic', sans-serif;
+    font-size: 1.75rem;
+}
+
+.header-center {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.search-bar {
+    padding: 12px;
+    width: 500px;
+    border: 1px solid #cccccce1;
+    border-radius: 25px;
+    font-size: 16px;
+    justify-self: center;
+}
+
+.header-right {
+    display: flex;
+    flex-basis: 25%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.usericon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.username {
+    width: auto;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.userbutton {
+    display: flex;
+    padding: 4px 4px;
+    justify-content: flex-end;
+    border: 1px solid #cccccce1;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.userbutton:hover {
+    border: 1px solid #000000;
+    cursor: pointer;
+}
